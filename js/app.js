@@ -24,16 +24,14 @@ const allFoods = (allFoods) => {
                             <div class="card-body">
                               <h5 class="card-title text-center text-primary fw-bold">${food.strMeal}</h5>
                               <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><span class="fw-bold">Type:</span>  ${food.strTags}</li>
+                                
                                 <li class="list-group-item"><span class="fw-bold">Region:</span> ${food.strArea}</li>
                                 <li class="list-group-item"><span class="fw-bold">Category:</span> ${food.strCategory}</li>
                               </ul>
                               
-                              <p class="card-text ingredients overflow-auto p-3 fst-italic"><span class="fw-bold">Ingredients:</span> ${food.strIngredient1}, ${food.strIngredient2}, ${food.strIngredient3}, ${food.strIngredient4}, ${food.strIngredient5}, ${food.strIngredient6}, ${food.strIngredient7}, ${food.strIngredient8}</p>
-                              <div class="p-3">
-                              <a href="#detailsSection"><button onclick="loadDescription('${food.idMeal}')" type="button" class="btn btn-warning px-4">Recipe Details<i class="fa-solid fa-arrow-right ms-3"></i></button></a>
+                              <p class="card-text ingredients px-3  fst-italic"><span class="fw-bold">Ingredients:</span> ${food.strIngredient1}, ${food.strIngredient2}, ${food.strIngredient3}, ${food.strIngredient4}, ${food.strIngredient5}, ${food.strIngredient6}, ${food.strIngredient7}, ${food.strIngredient8}</p>
                               
-                            </div>
+                            <div class="p-3"><a href="#detailsSection"><button onclick="loadDescription('${food.idMeal}')" type="button" class="btn btn-warning px-4">Recipe Details<i class="fa-solid fa-arrow-right ms-3"></i></button></a></div>
                             </div>
                           </div>
                         </div>`;

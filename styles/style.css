@@ -13,3 +13,6 @@
     object-fit: cover;
     object-position: center;
 }
+.ingredients{
+    height: 80px;
+}
