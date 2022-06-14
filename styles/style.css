@@ -5,3 +5,11 @@
 .large-txt{
      font-size: 3rem;
 }
+.carousal-container{
+    height: 80vh;
+}
+.carousel img{
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
